@@ -1,0 +1,56 @@
+Html stands for hyper text markup language - 
+it is used to create web page and structure content .
+
+It is not programming language 
+It's markup language 
+It tells the browser that the document is an HTML5 
+
+//CSS 
+css is a cascading style sheet 
+it is used to style and design webpage 
+change text ,color, background 
+animation and transition too
+
+//Task -1 
+inline -- For styling single element 
+internal -- for styling html page 
+written inside the <style> 
+tag in the <header> secvtion of the Html file.
+external -- attached with another file for proper ui and design
+selector{
+    property:value;
+}
+
+
+//Task-2 
+selectors -- A css selector used to select html elements so that we can apply styles to them
+1.Element selector --  It selects all html elements with the same tag name (h1, p, button)
+2.class selector -- Class selector is used to style one or more html elements(.)
+3.id selector -- Id selector styles  only one unique html element and id should be used only once on a page (#)
+4.universal selector -- Selects every html element on the web page(*)
+5.group selector --  This will used to apply same style to multiple or different elements
+
+
+//colors and background properties : 
+used to change the text color 
+selector{
+    color:value;
+}
+color -- name, RGB, HEXDECIMAL WAY
+color:orange;
+color:rgb(255,0,0);
+color:#ffffff
+
+background properties: Used to change the background of the web page
+background-img: url("");
+background-repeat:repeat;(control  the web page)
+    repeat : background img repeats again nd again  like horizontally and vertically and fills entire page
+    no-repeat :
+    It displays only once
+
+background-size: cover/contain;
+background-position:center/top/bottom/left/right;
+
+
+
+

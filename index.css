@@ -1,0 +1,99 @@
+/* ===================================
+   UNIVERSAL SELECTOR
+=================================== */
+
+*{
+    font-family:Arial;
+}
+
+/* ===================================
+   ELEMENT SELECTOR
+=================================== */
+
+h3{
+    color:blue;
+}
+
+/* ===================================
+   CLASS SELECTOR
+=================================== */
+
+.myClass{
+    color:white;
+    background-color:green;
+}
+
+/* ===================================
+   ID SELECTOR
+=================================== */
+
+#myID{
+    color:white;
+    background-color:red;
+}
+
+/* ===================================
+   GROUP SELECTOR
+=================================== */
+
+h4,h5{
+    color:purple;
+    background-color:lightgray;
+}
+
+/* ===================================
+   EXTERNAL CSS EXAMPLE
+=================================== */
+
+.externalClass{
+    color:darkgreen;
+    background-color:lightcyan;
+}
+
+button{
+    background-color:orange;
+    color:white;
+}
+
+/* ===================================
+   COLORS
+=================================== */
+
+/* Color Name */
+.colorName{
+    color:blue;
+}
+
+/* HEX Color */
+.hexColor{
+    color:#ff0000;
+}
+
+/* RGB Color */
+.rgbColor{
+    color:rgb(0,128,0);
+}
+
+/* ===================================
+   BACKGROUND PROPERTIES
+=================================== */
+
+.backgroundBox{
+
+    /* Background Color */
+    background-color:lightblue;
+
+    /* Background Image */
+    background-image:url("https://wallpaperbat.com/img/121708901-batman-dark-background-gloomy.jpg");
+
+    /* No Repeat */
+    background-repeat:no-repeat;
+
+    /* Position */
+    background-position:center;
+
+    /* Size */
+    background-size:cover;
+
+    color:white;
+}

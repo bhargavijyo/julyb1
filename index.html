@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Topics Demo</title>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- =========================
+         INTERNAL CSS
+    ========================== -->
+    <style>
+
+        /* Element Selector */
+        h2{
+            color: darkblue;
+        }
+
+        /* Class Selector */
+        .internalClass{
+            color: green;
+            background-color: lightyellow;
+        }
+
+        /* ID Selector */
+        #internalID{
+            color: white;
+            background-color: purple;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>CSS Topics Demonstration</h1>
+
+    <hr>
+
+    <!-- =======================================
+         1. INLINE CSS
+    ======================================== -->
+
+    <h2>1. Inline CSS</h2>
+
+    <!-- CSS written inside style attribute -->
+    <p style="color:red; background-color:lightblue;">
+        This paragraph uses Inline CSS.
+    </p>
+
+    <hr>
+
+    <!-- =======================================
+         2. INTERNAL CSS
+    ======================================== -->
+
+    <h2>2. Internal CSS</h2>
+
+    <p class="internalClass">
+        This paragraph is styled using Internal CSS.
+    </p>
+
+    <p id="internalID">
+        This paragraph also uses Internal CSS with ID selector.
+    </p>
+
+    <hr>
+
+    <!-- =======================================
+         3. EXTERNAL CSS
+    ======================================== -->
+
+    <h2>3. External CSS</h2>
+
+    <p class="externalClass">
+        This paragraph is styled using External CSS.
+    </p>
+
+    <button>Click Me</button>
+
+    <hr>
+
+    <!-- =======================================
+         SELECTORS
+    ======================================== -->
+
+    <h2>4. CSS Selectors</h2>
+
+    <h3>Element Selector Example</h3>
+
+    <p class="myClass">
+        Class Selector Example
+    </p>
+
+    <p id="myID">
+        ID Selector Example
+    </p>
+
+    <div>
+        Universal Selector applies to all elements.
+    </div>
+
+    <h4>Group Selector Example</h4>
+
+    <h5>Another Heading</h5>
+
+    <hr>
+
+    <!-- =======================================
+         COLORS
+    ======================================== -->
+
+    <h2>5. CSS Colors</h2>
+
+    <p class="colorName">
+        Color using Name
+    </p>
+
+    <p class="hexColor">
+        Color using HEX Value
+    </p>
+
+    <p class="rgbColor">
+        Color using RGB Value
+    </p>
+
+    <hr>
+
+    <!-- =======================================
+         BACKGROUND PROPERTIES
+    ======================================== -->
+
+    <h2>6. Background Properties</h2>
+
+    <div class="backgroundBox">
+        Background Color, Image, Repeat,
+        Position and Size Example
+    </div>
+
+</body>
+</html>

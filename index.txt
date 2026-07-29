@@ -51,6 +51,29 @@ background-repeat:repeat;(control  the web page)
 background-size: cover/contain;
 background-position:center/top/bottom/left/right;
 
+//Text styling  -- It is used to change appearence of text on a webpage 
+1.font-family:Times new roman, serief (used to change the font style)
+2.font-size : 80px ,20px, or 50% ;(used to change the size of the font)
+3.text-align : center,left,right(we can align text based on user need)
+4. text-transform : it can used to convert text (uppercase, lowercase)
+5.text-decoration :underline, overline, line-through
+6.font-weight : bolder;
+7.line-height : changes the space between lines
+8.letter-spacing : space between letters;
 
+//Box Modeling -- In this every Html element is treated as box and 
+it determines how much space each element occupies on web page.
+1.content -- Actual data inside the tags like text,img,buttons etc.
+2.padding -- It is the space between the content and border.
+3.border -- Is the line surrounding padding and content.
+4.margin --  iSs the space outside the border.
 
+//CSS positions -- used to control positon of an element on web page(how it placed like that)
+1.position:static;  (default )
+2.relative  -- original place(u can move it using top, left, right)
+3.absolute -- the element removed from original position 
+                absolute can search the non-static parent, once it reach the non-static parent it will
+                act as the same as relative .
+4.fixed -- Fixed place no change
+5.sticky -- using top:0; once it reach top it will act as same fixed
 

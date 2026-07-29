@@ -1,99 +1,80 @@
-/* ===================================
-   UNIVERSAL SELECTOR
-=================================== */
-
-*{
-    font-family:Arial;
+/*h1{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
-/* ===================================
-   ELEMENT SELECTOR
-=================================== */
+.p1{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: underline;
+}*/
 
-h3{
-    color:blue;
+/**{
+    padding: 0;
 }
 
-/* ===================================
-   CLASS SELECTOR
-=================================== */
-
-.myClass{
-    color:white;
-    background-color:green;
+h1{
+    text-align: center;
 }
 
-/* ===================================
-   ID SELECTOR
-=================================== */
-
-#myID{
-    color:white;
-    background-color:red;
+.box{
+    width: 300px;
+    height: 180px;
+    background: lightblue;
+    padding: 30px;
+    border: 5px solid blue;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
 }
 
-/* ===================================
-   GROUP SELECTOR
-=================================== */
-
-h4,h5{
-    color:purple;
-    background-color:lightgray;
+.static{
+    position: static;
+    top:50px;
+    left: 50px;
 }
 
-/* ===================================
-   EXTERNAL CSS EXAMPLE
-=================================== */
-
-.externalClass{
-    color:darkgreen;
-    background-color:lightcyan;
+.relative{
+    position: relative;
+    top: 40px;
+    left:60px
 }
+.absolute{
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    left:30px;
+}*/
 
-button{
-    background-color:orange;
-    color:white;
+/*.fixed-box{
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    background: green;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    bottom: 20px;
+    right: 20px;
+}*/
+
+.sticky{
+    background: blue;
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top:0;
 }
-
-/* ===================================
-   COLORS
-=================================== */
-
-/* Color Name */
-.colorName{
-    color:blue;
-}
-
-/* HEX Color */
-.hexColor{
-    color:#ff0000;
-}
-
-/* RGB Color */
-.rgbColor{
-    color:rgb(0,128,0);
-}
-
-/* ===================================
-   BACKGROUND PROPERTIES
-=================================== */
-
-.backgroundBox{
-
-    /* Background Color */
-    background-color:lightblue;
-
-    /* Background Image */
-    background-image:url("https://wallpaperbat.com/img/121708901-batman-dark-background-gloomy.jpg");
-
-    /* No Repeat */
-    background-repeat:no-repeat;
-
-    /* Position */
-    background-position:center;
-
-    /* Size */
-    background-size:cover;
-
-    color:white;
+.c{
+    height: 1500px;
 }

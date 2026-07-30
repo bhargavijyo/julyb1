@@ -68,7 +68,7 @@ h1{
     right: 20px;
 }*/
 
-.sticky{
+/*.sticky{
     background: blue;
     color: white;
     padding: 15px;
@@ -77,4 +77,44 @@ h1{
 }
 .c{
     height: 1500px;
+}*/
+
+/*.box{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    margin: 10px;
+}*/
+
+/*.box{
+    display: inline;
+    background-color: lightgreen;
+    margin: 10px;
+}*/
+
+/*.box{
+    display:inline-block;
+    width: 150px;
+    height:100px;
+    background-color:orange;
+    margin:10px;
+}*/
+
+/*.hide{
+    display: none;
+
+}*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.container div{
+    width: 100px;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
 }

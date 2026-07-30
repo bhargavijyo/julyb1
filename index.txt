@@ -77,3 +77,38 @@ it determines how much space each element occupies on web page.
 4.fixed -- Fixed place no change
 5.sticky -- using top:0; once it reach top it will act as same fixed
 
+//CSS display Properties : 
+    used to show how an html element is displayed and how
+    it behaves in the layout 
+    syntax:
+        selector{
+            display : value;
+        }
+    1.display:block ;-- 
+        It contains block-level element starts on a new line and
+        normally takes the full available width 
+        block elements :<div>,<p>,<h1>,<section>...etc
+    
+    2. display : inline; --Inline element does not start on new line 
+                            It takes only required width by it's content 
+                            inline elements -- <span>,<a>,<strong>,<em>
+                            Box1 Box2 Box3
+
+    3.display : inline-block; -- combination of inline + block 
+                                stays in the same line like inline 
+                                allows width and height like block 
+
+    4.display: none; -- completely removes the element from the page layout 
+                        The element not visible and it doesn't occupy any space.
+    
+    5.display : flex; -- It used to create a flexbox layout 
+                        It's useful for arranging elements in a row or column
+                        display : flex;
+                        flex-direction : row, row-reverse, col,col-reverse;
+                        justify-content//align-content : center,top, end, space-around;
+                        align-items : start,top,end,center;
+                        gap: it can be set by user (10px,20px;)
+                        flex-wrap: nowrap, wrap,wrap-reverse;
+                        flex on item: flex,1,2,3
+                        order: we can change the visual order.
+

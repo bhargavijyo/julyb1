@@ -106,15 +106,55 @@ h1{
 
 }*/
 
-.container{
+/*.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;*/
+    /*justify-content: flex-end;*/
+    /* flex-direction:flex-start;*/
+    /*gap: 20px
+}*/
+
+/*.container{
     display: flex;
     justify-content: center;
-    gap: 20px
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    flex-wrap: wrap-reverse;
+
 }
 
-.container div{
-    width: 100px;
-    padding: 20px;
-    background-color: lightblue;
+.box{
+    width: 200px;
+    height: 100px;
+    background: lightblue;
+    
+}*/
+
+/*.box{
+    display: grid;
+    grid-template-columns: 200px, 400px;
+  
+    gap:20px;
+}
+.b{
+    padding: 30px;
+    background-color: beige;
     text-align: center;
+}*/
+
+.container {
+    display: grid;
+
+   
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
 }

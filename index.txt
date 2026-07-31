@@ -101,14 +101,40 @@ it determines how much space each element occupies on web page.
     4.display: none; -- completely removes the element from the page layout 
                         The element not visible and it doesn't occupy any space.
     
-    5.display : flex; -- It used to create a flexbox layout 
+    5.display : flex; -- It used to create a flexbox layout,
+                        that makes easy to align, distribute ,size elements inside container. 
+
+                        It is one-dim layout 
+                        column/row only 
+                        best small components
+                        ex:Navbar,cards
+
                         It's useful for arranging elements in a row or column
                         display : flex;
                         flex-direction : row, row-reverse, col,col-reverse;
                         justify-content//align-content : center,top, end, space-around;
                         align-items : start,top,end,center;
                         gap: it can be set by user (10px,20px;)
-                        flex-wrap: nowrap, wrap,wrap-reverse;
+                        flex-wrap: nowrap, wrap,wrap-reverse;(Allows items to move to the next line.)
                         flex on item: flex,1,2,3
                         order: we can change the visual order.
+
+   6.grid -- 2d layout 
+            row and column 
+            it is best for full page creation 
+            ex:full page, section 
+            display:grid; 
+
+            grid-template-columns : --used to define in columns 
+
+                grid-template-columns : 200px,300px,400px;
+                                      : 30%,40%,30%;
+
+                                      1 2
+
+                                      2 2
+
+                                      2 2
+                                    
+                                    
 

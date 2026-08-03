@@ -144,7 +144,7 @@ h1{
     text-align: center;
 }*/
 
-.container {
+/*.container {
     display: grid;
 
    
@@ -157,4 +157,116 @@ h1{
     padding: 30px;
     text-align: center;
     font-size: 20px;
+}*/
+
+/*button{
+    background:blue;
+    color: white;
+    padding:10px 20px;
+    transition : background 0.5s ease, transoform 0.3s;
+
+}
+
+button : hover{
+    background: :range;
+    transform: scale(1.2);
+}*/
+
+/*.para{
+    background-color:blue;
+    color:white;
+    padding:20px;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    grid-template-rows: repeat(3, 100px);
+
+}*/
+
+/*.item{
+    background-color:green;
+    font-size:30px;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.outerbox{
+    margin:20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}*/
+
+/*.items1{*/
+    /*grid-column-start: 1;
+    grid-column-end: 4;*/
+    /*grid-column: 2/4;*/
+   /* grid-column : span 3;
+}*/
+
+/*.items2{
+    grid-column:span 3;
+}
+
+.items3{
+    grid-column:span 3;
+}
+
+.items4{
+    grid-column:span 3;
+}
+
+.items5{
+    grid-column:span 3;
+}
+
+.items6{
+    grid-column:span 3;
+}
+
+.items7{
+    grid-column:span 3;
+}*/
+
+.layout >div{
+    border: 1px solid black;
+    font-size:50px;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    background-color:hsl(359, 62%, 80%);
+
+}
+
+.layout{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "h h h"
+                        "sb1 m sb2"
+                        "f f f";
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+.header{
+    grid-area:h;
+}
+
+.sidebar1{
+    grid-area:sb1;
+}
+
+.sidebar2{
+    grid-area:sb2;
+}
+
+.content{
+    grid-area:m;
+}
+
+.footer{
+    grid-area:f;
 }

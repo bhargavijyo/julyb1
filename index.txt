@@ -135,6 +135,9 @@ it determines how much space each element occupies on web page.
                                       2 2
 
                                       2 2
+                                                header 
+                                      sidebar1 main content sidebar2
+                                                footer
                                     
                                     
 

@@ -138,6 +138,29 @@ it determines how much space each element occupies on web page.
                                                 header 
                                       sidebar1 main content sidebar2
                                                 footer
+
+//Transition and animation:
+    1.Transition -- whenever we can hover(affect) , some action will do it's called Transition
                                     
-                                    
+                 transition-duration :5s;
+                 transition-property: all;
+                 transition-timing-function : linear;
+                                            : ease-in;(starts slow ,ends fast)
+                                            : ease-out;(starts fast, ends slow)
+                                            :ease-in-out;(starts slowly ,speeds up in the middle, slow down again in the end)
+                Transform(Both x&y axies): 
+                                transform:rotate(45deg);
+                                        : scale(2);
+                                        : translate(200px);
+    2.Animation :  Whenever the website / webpage will reload or refresh some actions will do it's called animation.
+                    set the animation name 
+                    set the duration 
+                    we can use the @keyframes to set the name and using two types:
+                        one is (FROM TO)
+                        Another one is (25%,50%,75%,100%)
+                        animation-duration: 5s;
+                        animation-iteration-count:infinite;
+                        /*animation-iteration-count:infinite;
+                        animation-direction: alternate;
+                        animation-fill-mode: backwards;*/
 

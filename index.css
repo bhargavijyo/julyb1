@@ -232,7 +232,7 @@ button : hover{
     grid-column:span 3;
 }*/
 
-.layout >div{
+/*.layout >div{
     border: 1px solid black;
     font-size:50px;
     display:grid;
@@ -269,4 +269,66 @@ button : hover{
 
 .footer{
     grid-area:f;
+}*/
+
+/*.square{
+    width:200px;
+    height:200px;
+    background-color:blue;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transform: rotateY(45deg);
+    transform: scale(2);
+    transform:translateY(200px);
+
+}
+
+
+.square:hover{
+    width:400px;
+    background-color:darkred;
+}*/
+
+.ani{
+    width:100px;
+    height:100px;
+    background-color:red;
+    border-radius:50%;
+    animation-name: circle;
+    animation-duration: 5s;
+    /*animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;*/
+}
+
+/*@keyframes circle{
+    from{
+        width:300px;
+        height:300px;
+        background-color:blue;
+    }
+}*/
+
+@keyframes circle{
+    25%{
+        width:200px;
+        height:200px;
+        background-color:green;
+    }
+    50%{
+        width:300px;
+        height:300px;
+        background-color:yellow;
+    }
+    75%{
+        width:400px;
+        height:400px;
+        background-color:chocolate;
+    }
+    100%{
+        width:500px;
+        height:500px;
+        background-color:lavender;
+    }
 }

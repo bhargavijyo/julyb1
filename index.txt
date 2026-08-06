@@ -163,4 +163,26 @@ it determines how much space each element occupies on web page.
                         /*animation-iteration-count:infinite;
                         animation-direction: alternate;
                         animation-fill-mode: backwards;*/
+//Pseudo elements -- A css pseudo-elements starts with a double-colon(::) and allows you to style a part of 
+                        an element or create virtual elements.
+                        syntax: 
+                                selector :: pseudo-element{
+                                    property:value;
+                                }
+
+                        //class elements  : focus,hover,nth-child(2)(odd)(even)
+                        //pseudo elements :: first-letter,first-line,before,after,checked
+
+//Media queries -- Responsive web design 
+                    apply styles based on the device conditions .
+                    Device type(like mobile,desktop,tablet..etc)
+
+                    mobile -- 320px to 600px 
+                    tablet -- 601px to 800px 
+                    laptop/desktop -- above 801px 
+
+                    syntax : 
+                            @mediascreen and (max-width :size){
+                                block of code;
+                            }
 

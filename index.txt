@@ -186,3 +186,28 @@ it determines how much space each element occupies on web page.
                                 block of code;
                             }
 
+
+
+//HTML : it creates a structure of webpage.
+//CSS -- creates design for web page 
+//JavaScript (Js) -- It is a programming  language used to make web pages interactive and dynamic functionality 
+                    modify our html behaviour and functionality.
+
+//Variables :  A variable is a container used to store data in a program. 
+                1.var -- we can reassign and redeclare data
+                2.let -- in thiswe can reassign the data but we can't redeclare variable name.
+                3.const -- In reassign and redeclare 
+//Printing statements -- this method are used to show information to the user.
+                        1.console.log() -- It is used to display info in the browser's developer console.
+                        2.alert() -- alert() is used to display a msg in a popup box to the user .
+                                        In this user must click box
+                                            It will show on web page
+                        3.confirm() -- used  when the user to confirm or cancel some / any action.
+                                        displays two buttons ok and cancel.
+                        4.prompt() -- Used to ask the user to enter some information through a popup input box.
+                        5.document.writeln() -- used to write content directly into the html page.
+//console methods -- we can display directly into the browser .
+                        1.console.log();
+                        2.console.error() --displays a error message in console.
+                        3.console.warn() -- it displays a warning mssage.
+                        4.console.clear() -- clears all data from the console.

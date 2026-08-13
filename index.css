@@ -290,17 +290,17 @@ button : hover{
     background-color:darkred;
 }*/
 
-.ani{
+/*.ani{
     width:100px;
     height:100px;
     background-color:red;
     border-radius:50%;
     animation-name: circle;
     animation-duration: 5s;
-    /*animation-iteration-count:infinite;
+    animation-iteration-count:infinite;
     animation-direction: alternate;
-    animation-fill-mode: backwards;*/
-}
+    animation-fill-mode: backwards;
+}*/
 
 /*@keyframes circle{
     from{
@@ -384,7 +384,7 @@ p::after{
     color: chocolate;
 }*/
 
-header{
+/*header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -430,4 +430,4 @@ svg{
     height: 300px;
     display: none;
     fill: white;
-}
+}*/

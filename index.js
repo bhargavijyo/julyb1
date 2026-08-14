@@ -72,7 +72,64 @@ console.log(res);*/
  document.writeln("Hello " +name);
 */
 
-console.error("Something wrong!");
+/*console.error("Something wrong!");
 console.warn("warning");
-console.clear();
+console.clear();*/
 
+
+/*let age = 22;
+let price = 99.90;
+let temp = -34;
+console.log(age,price, temp );*/
+
+/*let name = "Riya";
+let city = 'vizag';
+let msg = `Hello, JavaScript`;
+console.log(name,city,msg);*/
+
+/*let isStudent = true;
+let islogged = false;
+console.log(isStudent);
+console.log(islogged);*/
+
+/*let n;
+console.log(n);*/
+
+/*var n = null;
+n = "Jasim";
+console.log(n);*/
+
+/*let age =30;
+let name = "Hasini";
+let student = true;
+let x;
+let y = null;
+console.log(typeof(age));
+console.log(typeof(name));
+console.log(typeof(student));
+console.log(typeof(x));
+console.log(typeof(y));*/
+
+/*let a = 10;
+let b =5;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
+a++;
+console.log(a);
+b--;
+console.log(b);*/
+
+/*let x =5;
+x **= 2; //x = x+5 =>5+5 =10//x= x**2=>5**2=25
+console.log(x);*/
+
+/*let a ="10";
+let b=10;
+console.log(a!=b);*/
+
+let age =true;
+console.log(!age);

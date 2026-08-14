@@ -211,3 +211,35 @@ it determines how much space each element occupies on web page.
                         2.console.error() --displays a error message in console.
                         3.console.warn() -- it displays a warning mssage.
                         4.console.clear() -- clears all data from the console.
+
+//Data Types -- 
+                1.Primitive : It tells javascript what kind of value a variable stores 
+                                it is the basic , single values in data types 
+                                Number => Used to store numeric values , including integers and decimal numbers.
+                                String => sequence of characters used to represent text. ''/""/``
+                                Boolean =>true or false
+                                Undefined => means a variable has been declared but no value has been assigned
+                                Null => represents an intentional absence of value 
+                                        there is no value here
+
+
+//Operators -- 
+            An operator is a symbol used to perform an operation on values or variables 
+            1.Arithmetic  => used to perform mathematical calculations.
+                            +,-,*,/,%,**,++,--
+            2.Assignment => used to assign or update values in Variables
+                            =, +=, -=, *=, /=, %=, **=
+            3.Relational & comparison => used to compare two values (true/false)
+                                            <,>,<=,>=,==(it checks only value), ===(both value nd data type),!=
+            4.logical => use to combine or reverse conditions 
+                        && --if both are true it will give output as true. 25<10 && 10<25   1  1  1
+                                                                                            1 0   0
+                                                                                            0 1   0
+                                                                                            0 0   0
+
+                        || -- if any one is true it wil give true  25<10 || 10<25       1 1    1 
+                                                                                        1 0     1
+                                                                                        0 1     1
+                                                                                        0 0     0
+                        ! -- It reverse the value(true => false)    1   0
+                                                                    0   1

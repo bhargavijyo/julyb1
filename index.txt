@@ -221,6 +221,16 @@ it determines how much space each element occupies on web page.
                                 Undefined => means a variable has been declared but no value has been assigned
                                 Null => represents an intentional absence of value 
                                         there is no value here
+                
+
+                2.Non-Primitive : we can store multiple values. 
+                                Array : store multiple values in single variable.
+
+                                Object : store data in key-value pairs .
+
+                                Function 
+
+                                Date
 
 
 //Operators -- 
@@ -243,3 +253,10 @@ it determines how much space each element occupies on web page.
                                                                                         0 0     0
                         ! -- It reverse the value(true => false)    1   0
                                                                     0   1
+
+//type conversion --> this is the process changing or converting one data type into another type .
+            1.Implicit type conversion => in this  it will convert automatically one data type to another when needed
+
+            2.Explicit data type conversion => The programmer or user manually converts data type.
+
+

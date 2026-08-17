@@ -131,5 +131,83 @@ console.log(x);*/
 let b=10;
 console.log(a!=b);*/
 
-let age =true;
-console.log(!age);
+/*let age =true;
+console.log(!age);*/
+
+//String + other == string
+/*console.log(typeof("hello"+"bhagi"));
+console.log(typeof("hello"+123));
+console.log(typeof("hello"+true));
+console.log(typeof("hello"+undefined));
+console.log(typeof("hello"+null));
+console.log(typeof("hello"+[1,2]));
+console.log(typeof("hello"+{k:5}));
+*/
+//Number implicit 
+/*console.log(typeof(123 + "hello" ));
+console.log(typeof(123 + 123));
+console.log(typeof(123 + true));
+console.log(typeof(123 + undefined));
+console.log(typeof(123 + null));
+//primitive + non-primitive == string
+console.log(typeof(123 + [1,2]));
+console.log(typeof(123 +{k:5} ));*/
+
+//boolean 
+/*console.log(typeof(true + "hello"));//string
+console.log(typeof(true + 123));//true =1 and false =0
+console.log(typeof(true + undefined));
+console.log(typeof(true + null));
+console.log(typeof(true + true));
+//primitive + non-primitive == string
+console.log(typeof(true + [1,2]));
+console.log(typeof(true + {k:5}));*/
+
+
+//NUmber conversion 
+
+/*console.log(Number());
+console.log(Number(""));
+console.log(Number(123));
+console.log(Number("11"));
+console.log(Number("abc"));//Nan
+console.log(Number("-123"));
+console.log(Number(undefined));//Nan
+console.log(Number(null));
+console.log(Number([1,2,3]));//Nan
+console.log(Number({k:5}));//Nan*/
+
+/*console.log(Boolean());
+console.log(Boolean(""));
+console.log(Boolean("123"));
+console.log(Boolean("abc"));
+console.log(Boolean(true));
+console.log(Boolean(false));
+console.log(Boolean(-20));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean([1,2,3]));
+console.log(Boolean({k:5}));*/
+
+/*const fruits = ["apple","banana", "mango","orange"];
+console.log(fruits);
+console.log(fruits[3]);
+console.log(fruits[1]);
+console.log(fruits[0]);*/
+
+/*let numbers= [10,20,30,40,50,609];
+console.log(numbers);
+console.log(numbers.length);*/
+
+//Object 
+let student = {
+    name : "Jasim",
+    age: 21, 
+    Course : "B.Tech",
+    percetage : 90
+};
+
+console.log(student);
+console.log(student.name);
+console.log(student.percetage);
+console.log(student["name"]);

@@ -259,4 +259,81 @@ it determines how much space each element occupies on web page.
 
             2.Explicit data type conversion => The programmer or user manually converts data type.
 
+//Flow Control Statements --> 
+            It is used to control the order in which javascript statements are executed.
+            it make decisions -- conditional statements
+            repeat codes -- looping statements
+
+            1.conditional statements => executed based on condition. 
+                                       1. if =>the if stmt executes a block of code only when the condition is true.
+                                                syntax: if(condition){
+                                                    //code
+                                                }
+                                        2. if...else => two posibilities 
+                                                        if condition is true -- if block executes
+                                                        if condition is false -- else block executes 
+                                                        syntax: if(condition){
+                                                            //code
+                                                        }else{
+                                                            //code
+                                                        }
+                                        3.else...if => used when we have a multiple conditions .
+                                                        syntax: if(condition){
+                                                            //code
+                                                        }else if(condition){
+
+                                                        }else if(condition){
+
+                                                        }else{
+
+                                                        }
+                                        4.Nested if => An if statement inside another if statement is called nested if .
+                                                        syntax: if(condition){
+                                                            if(condition){
+                                                                ...
+                                                            }
+                                                        }
+                                        5.Switch => Switch is used to execute different code based on value of an expression.
+                                                    switch(condition){
+                                                        case value1:
+                                                        //code
+                                                        break;
+                                                        case value2:
+                                                        //code
+                                                        break;
+                                                        ...
+
+                                                        default:
+                                                        //code
+                                                    }
+                                        6.Ternary Operator => short way of writing if...else statement
+                                                                condition ? expression 1: expression 2;
+            
+            2.Looping Statements -- A loop is used to execute the same block of code repeatedly.
+                                    welcome
+                                    welcome
+                                    welcome
+                                    welcome
+                                    welcome
+                                1.for Loop =>  A for loop is used when we know how many time we want to execute something.
+                                                for(initialize; condition; inc/dec;){
+                                                    //code
+                                                }
+                                2.while Loop => A while loop executes code as long as the condition is true.
+                                                while(condition){
+                                                    //code
+                                                }
+                                                Note :- i++/i-- without it, the loop could become an infinite loop.
+                                3.do...while Loop => A do...while loop executes the code at least once, and then checks the condition.
+                                                        do{
+                                                            //code
+                                                        }while(condition);
+                                4.for...of => for...of is used to iterate over the values of an iterable, commonly arrays and strings.
+                                                ["a","b","c"];
+                                                o/p :  a 
+                                                       b 
+                                                       c
+                                                Note:- represents values
+                                5. for...in => for...in mainly used to iterate over the keys/properties of an object 
+                                                Note:- represents keys./index
 

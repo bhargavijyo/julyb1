@@ -200,7 +200,7 @@ console.log(numbers);
 console.log(numbers.length);*/
 
 //Object 
-let student = {
+/*let student = {
     name : "Jasim",
     age: 21, 
     Course : "B.Tech",
@@ -210,4 +210,107 @@ let student = {
 console.log(student);
 console.log(student.name);
 console.log(student.percetage);
-console.log(student["name"]);
+console.log(student["name"]);*/
+
+/*let age =10;
+if(age>=18){
+    console.log("Your eligible to vote");
+}else{
+    console.log("Not Eligible");
+}*/
+
+/*let marks =45;
+if(marks >=90){
+    console.log("A Grade");
+}else if(marks >= 75){
+    console.log("B Grade");
+}else if(marks >= 60){
+    console.log("C Grade");
+}else{
+    console.log("Fail");
+}*/
+
+/*let age = 20;
+let hasVoterid = false;
+if(age >=18){
+    if(hasVoterid){
+        console.log("You can vote");
+    }
+}*/
+
+/*let day = 6;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    default:
+        console.log("Invalid day");
+}*/
+
+/*let a =80;
+let result = a>=35 ? "pass": "faile";
+console.log(result);*/
+
+/*console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");
+console.log("Welcome");*/
+/*let i =1;
+for(i=1;i<=5;i++){//123456
+    console.log("welcome");
+}*/
+
+/*let i =1;
+let n=5;
+for(i=1;i<=5;i++){//12345
+    console.log(n*i);
+}*/
+
+/*let i=1;
+while(i<=5){
+    console.log(i);
+    i++;
+}*/
+
+/*let i=10;
+do{
+    console.log(i);
+    i++;
+}while(i<=5);*/
+
+/*let i=15;
+while(i<=5){
+    console.log(i);
+}*/
+
+/*let fruits = ["Apple", "Mango", "Banana", "Grapes"];
+for(let f of fruits){//f represents the value
+    console.log(f);
+}*/
+
+/*let name = "Bhargavi";
+for(let character of name){
+    console.log(character);
+}*/ 
+
+/*let student = {
+    name:"Bhagi",
+    age:22,
+    role:"developer"
+};
+
+for(let s in student){
+    console.log(student[s]);
+}*/
+
+/*let fruits = ["Apple", "Mango", "Banana", "Grapes"];
+for(let f of fruits){
+    console.log(f);
+}*/

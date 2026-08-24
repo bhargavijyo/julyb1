@@ -337,3 +337,30 @@ it determines how much space each element occupies on web page.
                                 5. for...in => for...in mainly used to iterate over the keys/properties of an object 
                                                 Note:- represents keys./index
 
+//FUNCTIONS -- 
+                A function is a reusable block of code designed to perform a specific task.
+                syntax:  function fn_name(){
+                    //code
+                }
+                fn_name();
+
+                1.Named Function => It is a function that has a specific name . we can call it using that name.
+                            function fn_name(parameter1,..paremetern){
+                                //code
+                            }
+                            fn_name(parameter1,..paremetern);
+                2.Anonymous function => An anonymous function is function without name.
+                                        It is usually assigned to a variable or passed as an arguments to another function 
+                                        let a =function (parameters...){
+
+                                        }
+                3.Arrow Function => An arrow function is a shorter syntax for writing functions . 
+                                    it was introduced in ES6(Ecmascript -- it is used to give advanced js features)
+                                    let add = (a,b)=>{
+                                        return a+b;
+                                    };
+
+                                    one parameter => let d = num => num*5;
+                
+                4.
+

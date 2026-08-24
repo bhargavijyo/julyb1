@@ -311,6 +311,46 @@ for(let s in student){
 }*/
 
 /*let fruits = ["Apple", "Mango", "Banana", "Grapes"];
-for(let f of fruits){
+for(let f in fruits){
     console.log(f);
 }*/
+
+/*function greet(){
+    console.log("Hello, students!");
+}
+greet();
+
+function gt(name){
+    console.log("Hello",name);
+}
+gt("JASIM");*/
+
+/*function add(a,b){
+    return a+b;
+
+}
+let result = add(10,20);
+console.log(result);
+*/
+
+/*let b = function(name){
+    console.log("hello", name);
+};
+b("Bhagi");*/
+/*let add = function(a,b){
+    return a+b;
+};
+let result = add(10,20);
+console.log(result);*/
+
+/*let add = (a,b)=>{
+    return a+b;
+};
+console.log(add(10,80));
+*/
+
+/*let s = (num) => num*5 ;
+console.log(s(7));*/
+
+let greet = () => console.log("HI,Buddies!");
+greet();

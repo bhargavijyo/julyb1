@@ -336,7 +336,12 @@ console.log(result);
 /*let b = function(name){
     console.log("hello", name);
 };
-b("Bhagi");*/
+b("Bhagi");//name ="Bhagi"
+
+function greet(n){
+    console.log("Hello", n);
+};
+greet("JASIM");*/
 /*let add = function(a,b){
     return a+b;
 };
@@ -346,11 +351,158 @@ console.log(result);*/
 /*let add = (a,b)=>{
     return a+b;
 };
-console.log(add(10,80));
-*/
+let result = add(10,90);
+console.log(result);*/
 
-/*let s = (num) => num*5 ;
+
+/*let s = (num) => num*num;
 console.log(s(7));*/
 
-let greet = () => console.log("HI,Buddies!");
-greet();
+/*let greet = () => console.log("HI,Buddies!");
+greet();*/
+
+/*function greet(name, callback){
+    console.log("Hello", name);
+    callback();
+}
+function msg(){
+    console.log("Welcome to the JavaScript");
+}
+greet("JASIM", msg);//msg is callback function */
+
+/*function cal(a,b, operation){
+    return operation(a,b);
+}
+function add(x,y){
+    return x-y;
+}
+
+
+
+console.log(cal(90,40,add));*/
+
+/*function cal(a,b, operation){
+    return operation(a,b);//a==x b==y =>a*b
+}
+let result = cal(10, 20, (x,y) => x*y);
+console.log(result);*/
+
+//fn as argument 
+/*function cal(a,b, operation){
+    return operation(a,b);
+}
+function add(x,y){
+    return x*y;
+}
+
+console.log(cal(90,40,add));//cal is HOF bcz it receives data from add fn
+*/
+//fn returning another fn 
+/*function great(number){
+    return function(value){
+        return value * number;
+    };
+}
+let d = great(4);
+console.log(d(20));*/
+//console.log(d(2));
+
+
+/*function a(a,b){
+    return a-b;
+}
+console.log(a(29,19));*/
+//console.log("Hi,mohan");
+
+/*function mohan(a){
+    return function(b){
+        return function(C){
+            return a+b+C;
+        };
+    };
+}
+console.log(mohan(20)(40)(40));*/
+
+
+
+/*function multiply(x){
+    return function(y){
+        return x*y;
+    };
+}
+console.log(multiply(30)(4));*/
+
+/*let d = multiply(2);//x=2
+let t = multiply(3);//x=3
+
+console.log(d(20));//2*20 
+console.log(t(30));//3*30*/
+
+/*(function(){
+    console.log("Hello, students");
+})();
+
+(function(name){
+    console.log("Hello " +name);
+})("Mohan");*/
+
+/*(function(){
+    let s = "12345";
+    console.log(s);
+})();*/
+
+/*function* numbers(){
+    yield 10;
+    yield 20;
+    yield 30;
+    yield 40;
+}
+let generator = numbers();
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());*/
+
+/*function* fruits(){
+    yield "apple";
+    yield "banana";
+    yield "mando";
+}
+
+let f = fruits();
+for(let fruit of f){
+    console.log(fruit);
+}
+*/
+/*function bhagi(name){
+    console.log("Hi, everyone");
+    console.log("hello", name)
+}
+bhagi("Swapna");*/
+
+/*let s = function(a,b){
+    return a*b;
+};
+console.log(s(5,2));*/
+
+/*let square = (num) => num*num;
+console.log(square(5));*/
+
+/*let a = (x,y)=>{
+    return x+y;
+};
+console.log(a(10,60));*/
+/*function greet(name, callback){
+    console.log("Hello", name);
+    callback();
+}
+function msg(){
+    console.log("Welcom to javascript");
+
+}
+greet("Swapna", msg);*/
+
+let age = 25;
+age = "twenty";
+console.log(age);

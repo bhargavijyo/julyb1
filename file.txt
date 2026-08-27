@@ -1,0 +1,28 @@
+//TYPESCRIPT -- > Typescript is a strongly typed superset of js developed by Microsoft.
+                    It adds a static type systems to js and 
+                    It provides additional features that help developers write safer and more maintainable code.
+                    let age = 25;
+                    age = "twen";
+                    console.log(age);
+
+                    o/p: Ts reports an error bcz 
+                    Type "string" is not assignable to type "number"
+                    1.statically typed
+                    2.many type errors detect before run time 
+                    3. .ts file 
+                    4. usually compiled/ transpiled to javascript
+                    5.large application 
+                    6.usually requires a compilation/build step.
+                    Type script doesn't replace js 
+
+                    ts->compilation->js->server 
+                    Browsers fundamentally execute js,not ts syntax.
+                    file.ts  =>typescript compiler =>file.js
+    //Installation => node -v 
+                      npm -v 
+                      npm install -g typescript
+                      tsc -v 
+    //Type Annotation => let variableName: type = value;//we explicitly tell typescript the type
+                            studentName : string//studentName should contain a string .
+    //Type Inference => automatically determine the data type .
+

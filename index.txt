@@ -190,6 +190,8 @@ it determines how much space each element occupies on web page.
 
 //HTML : it creates a structure of webpage.
 //CSS -- creates design for web page 
+
+
 //JavaScript (Js) -- It is a programming  language used to make web pages interactive and dynamic functionality 
                     modify our html behaviour and functionality.
 
@@ -362,5 +364,42 @@ it determines how much space each element occupies on web page.
 
                                     one parameter => let d = num => num*5;
                 
-                4.
+                4.Callback function => it is a function that is passed as an argument/parameter to another function and 
+                                        execute later by that function.
+                                        function greet(name, callback){
+                                            console.log("Hello", name);
+                                            callback();
+                                        }
+                                        function msg(){
+                                            console.log("Welcome to the JavaScript");
+                                        }
+                                        greet("JASIM", msg);//msg is callback function
 
+                5.HOF(higher-order function) => It is a function that does at least one of these:
+                                                1.takes another function as an argument
+                                                2.returns the another function
+
+                6.Currying function => Currying means converting a function that accepts multiple 
+                                        arguments/parameters into a sequence of functions,
+                                        where each function takes one arguement.
+                
+                7.IIFE -- Immediately Invoked Function Expression  
+                        => It is created and executed immediately.
+                        syntax : (function(){
+                                     //code
+                                })();
+                        --> executing code immediately 
+                        -->creating a private scope 
+                        -->it avoids unnecessary global variables 
+
+                8.Generator Function => It is a special function that can pause its execution and resume later.
+                                        syntax : function* function_name(){
+                                            //code
+                                        }
+
+                                        yield value;
+                                        variable_name.next();
+
+
+
+    

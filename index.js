@@ -503,6 +503,53 @@ function msg(){
 }
 greet("Swapna", msg);*/
 
-let age = 25;
+/*let age = 25;
 age = "twenty";
-console.log(age);
+console.log(age);*/
+
+//with arrays 
+/*let numbers = [10,20,30,40,50];
+let num = [60,70,80,90,900];
+//let s = [70,80,...numbers,100];
+//console.log(s);//
+//console.log(numbers);//
+let res = [...num,700 ,...numbers];
+console.log(res);*/
+
+/*let student1 = {
+    name:"Rahul",
+    age:22,
+    course:"CSE"
+};
+
+let s = {
+    
+    ...student1,
+    age:60
+};
+console.log(s.age);
+*/
+
+let numbers=[10,20,30];
+console.log(...numbers);
+
+function num(...values){
+    console.log(values);
+}
+num(10,20,30,40);
+
+/*function add(a,b){
+    return a+b;
+}
+console.log(add(10,20));*/
+ function add(...nums){
+    let sum=0;
+    for(let n of nums){
+        sum = sum+n;
+    }
+    return sum;
+ }
+ console.log(add(10,20));
+ console.log(add(10,20,30));
+ console.log(add(10,20,30,40));
+

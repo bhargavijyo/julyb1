@@ -400,6 +400,22 @@ it determines how much space each element occupies on web page.
                                         yield value;
                                         variable_name.next();
 
+//Data structure (ES6 edition): it provides advanced features and
+                                it is important for dealing/working with arrays and objects.
+                                shorter,cleaner and easy to maintain.
+                                1.arrow function .
+                                2. spread operator => The spread operator(...variable_name) is used to expand/
+                                                     unpack the elements of an array or properties of an object.
+                                                     spread == open the values and spread them out.
+
+                                                     ...array
+                                                     ...object
+                                3.Rest operator => similar to spread we are using (...)
+                                                    collects multiple array/values into a single way.
+                                                    Rest = collect the remaining values 
+                                                    
+                                
+
 
 
     

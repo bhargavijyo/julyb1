@@ -26,3 +26,33 @@
                             studentName : string//studentName should contain a string .
     //Type Inference => automatically determine the data type .
 
+    //DATA TYPES => what kind of value a variable can store. 
+                    1.string => let variableName: string = value;
+                    2.number => let variableName: number = value; 
+                                        integers
+                                        decimal
+                                        +ve integers
+                                        -ve integers
+                    3.boolean => true/false
+                    4.Null => there is intentionally no value.
+                                let user: null = null;
+                    5. Undefined => value has not assigned .
+                                    let result: Undefined = Undefined;
+                    6.any => don't perform type checking for this value.
+                            bcz all are allowed
+                            let data: any = 100;
+                            data="hello";
+                            data=true;
+                            data = {
+                                name: "Ravi"
+                            };
+                            Disables type checking 
+                            can directly access properties
+                            less safe 
+
+                    7.unknown => It is another type for values whose type isn't known yet.
+                                    preserves the type safety 
+                                    check first 
+                                    safer more 
+                                    preferred for goog/genuine unknown values.
+

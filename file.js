@@ -58,3 +58,23 @@ let tvalue = "thanusha";
 if (typeof tvalue === "string") {
     console.log(tvalue.toUpperCase());
 }
+function greet() {
+    console.log("Hello students");
+}
+function throwError(message) {
+    throw new Error(message);
+}
+let bigNumber = 123456677890673495726n;
+console.log(bigNumber);
+let num1 = 100;
+let num2 = 200n;
+//let sum = num1 + num2; // Error: Cannot mix BigInt and other types
+let sum = BigInt(num1) + num2; // Convert num1 to BigInt before addition
+console.log(sum);
+const mySymbol1 = Symbol("m");
+const mySymbol2 = mySymbol1;
+console.log(mySymbol1 === mySymbol2); // true, same symbol
+let s = ["Ravi", 22];
+console.log(s);
+console.log(s[0]);
+console.log(s[1]);

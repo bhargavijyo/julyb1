@@ -412,7 +412,30 @@ it determines how much space each element occupies on web page.
                                                      ...object
                                 3.Rest operator => similar to spread we are using (...)
                                                     collects multiple array/values into a single way.
-                                                    Rest = collect the remaining values 
+                                                    Rest = collect the remaining values
+
+                                4.Destructuring => Extract values from arrays or objects and store them in variables.
+                                                    //by array : 1.extract normally
+                                                                 2.skip values
+                                                                 3.Default values
+//ES6 Array Methode => 
+                    1.manipulation method => modify data like add,remove etc.
+                                            1.push => Add/Insert elements at the end 
+                                                        syntax: array.push(element);
+                                                        
+                                            2.pop => Remove element at end 
+                                                        syntax: array.pop(element);
+                                            3.shift => removes the first element from an array. 
+                                                        syntax: array.shift();
+                                            4.unshift => It adds one or more elements at the begining of a array.
+                                                            syntax: array.unshift(element);
+                                            5.splice => it can Remove elements 
+                                                        add elements 
+                                                        Replace elements. 
+                                                        syntax: array.splice(start, deleteCount, item..);
+
+
+
                                                     
                                 
 

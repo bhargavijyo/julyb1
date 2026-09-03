@@ -55,4 +55,16 @@
                                     check first 
                                     safer more 
                                     preferred for goog/genuine unknown values.
+                    8.void  => void is mainly used for functions that don,t return a value.
+                                function greet(): void{
+                                    console.log("Hello students");
+                                }
+                    9.never => never represents a value that never occurs.
+                                    A common example is a function that always throws an error.
+                    10.BigInt => bigint is used for very large integers .
+
+                    11. symbol => A symbol creates a unique value.
+                    12. Tuples =>  a tuple is an array where the number of elements and their types are fixed in a specific order.
+                                    let s: [string, number] = ["Ravi", 22];
+                    13.enum => define a collection of named constants.
 

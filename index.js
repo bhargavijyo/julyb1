@@ -530,19 +530,19 @@ let s = {
 console.log(s.age);
 */
 
-let numbers=[10,20,30];
+/*let numbers=[10,20,30];
 console.log(...numbers);
 
 function num(...values){
     console.log(values);
 }
 num(10,20,30,40);
-
+*/
 /*function add(a,b){
     return a+b;
 }
 console.log(add(10,20));*/
- function add(...nums){
+ /*function add(...nums){
     let sum=0;
     for(let n of nums){
         sum = sum+n;
@@ -551,5 +551,89 @@ console.log(add(10,20));*/
  }
  console.log(add(10,20));
  console.log(add(10,20,30));
- console.log(add(10,20,30,40));
+ console.log(add(10,20,30,40));*/
 
+ /*function studentDetails(name,age, ...skills){
+    console.log("Name:", name);
+    console.log("Age:", age);
+    console.log("Skills:", skills);
+ }
+
+ studentDetails(
+    "Bhargavi",
+    22,
+    "JavaScript",
+    "React",
+    "Backkend"
+ 
+ );*/
+//Array destructuring
+ /*let student = ["Leela", 23, "cse"];
+// let name = student[0];
+ //let age = student[1];
+ //let course = student[2];
+ let [name, age, course] = student;
+ console.log(name);
+ console.log(age);
+ console.log(course);
+*/
+
+/*let color = ["red", "green", "blue","black","orange"];
+//let [c1,c2,c3,c4] = color;
+let [c1,,,c4, c5="pink"] = color;
+console.log(c1);
+//console.log(c2);
+//console.log(c3);
+console.log(c4);
+console.log(c5);*/
+
+//Object Destructuring 
+/*let student = {
+    name: "JASIM",
+    age: 22,
+    course: "CSE"
+};
+
+let {name, age, course} = student;
+
+console.log(name);
+console.log(age);
+console.log(course);
+*/
+
+/*let student ={
+    name: "Bhargavi",
+    age:22
+};
+
+let {
+    name : studentName,
+    age: studentAge,
+    city= "vizag"
+} = student;
+
+console.log(studentName);
+console.log(studentAge);
+console.log(city);*/
+/*let student = {
+    name: "JASIM",
+    age: 22,
+    course: "CSE"
+};
+let{name, ...studentDetails} = student;
+console.log(name);
+console.log(studentDetails);*/
+
+
+let names = ["Ravi", "Swapna", "Leela", "JASIM"];
+//names.push("Thanusha");
+//names.push("Thanu");
+//let removed =names.pop();  
+//console.log(removed);  
+
+//let n =names.shift();
+//console.log(n);
+//names.unshift("Bhanu","ramu");
+//names.splice(1,2);//start index=1 , 2=delete values 
+names.splice(1,1,"JASIM");
+console.log(names);
